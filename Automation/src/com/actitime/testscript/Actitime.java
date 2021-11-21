@@ -11,4 +11,8 @@ public class Actitime extends BaseClassActitime {
 	{
 		Reporter.log("createcustomer", true);
 	}
+	public void modifyCustomer() 
+	{
+		Reporter.log("modify", true);
+	}
 }
